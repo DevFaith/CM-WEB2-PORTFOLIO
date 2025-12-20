@@ -11,7 +11,7 @@ export default function Navbar() {
     { to: "/about", label: "About" },
     { to: "/experience", label: "Experience" },
     { to: "/testimonials", label: "Testimonials" },
-    { to: "/companies", label: "Companies" },
+    // { to: "/companies", label: "Companies" },
     { to: "/contact", label: "Contact" },
   ];
 
@@ -19,7 +19,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-white/10 backdrop-blur-lg border-b border-white/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-2xl font-bold text-white">FAITH</Link>
+          <Link to="/" className="text-2xl font-bold text-white">F.W</Link>
 
           {/* Desktop menu */}
           <div className="hidden md:flex items-center space-x-8">
