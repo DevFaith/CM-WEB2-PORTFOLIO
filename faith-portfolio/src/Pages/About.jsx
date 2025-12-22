@@ -1,5 +1,10 @@
 import { motion } from "framer-motion";
 import Image2 from "../assets/image2.png";
+import Image3 from "../assets/image3.png";
+import Image4 from "../assets/image4.png";
+import Image5 from "../assets/image5.png";
+import Image6 from "../assets/image6.png";
+import Image7 from "../assets/image7.png";
 
 const values = [
   {
@@ -11,31 +16,31 @@ const values = [
   {
     title: "Storytelling",
     desc: "Great content doesn’t just convert audiences, it teaches, inspires, and builds trust. I help brands and individuals craft authentic narratives that resonate and last.",
-    image: "https://cdn.sanity.io/images/tkl0o0xu/production/4727cd51031c4b6eea7947ab0fad24d7b2c7e2d3-2084x1459.png?fit=min&w=856&h=599&dpr=1&q=95",
+    image: Image3,
     alt: "Content creator crafting stories on laptop",
   },
   {
     title: "Human Connection",
     desc: "People make the digital world meaningful. I focus on fostering genuine relationships, empathy, and community that turn audiences into loyal advocates.",
-    image: "https://get.pxhere.com/photo/african-american-african-descent-american-black-caucasian-cellphone-chat-chatting-cheerful-communication-community-connecting-connection-data-device-digital-european-friends-gadget-global-happiness-information-innovation-internet-leaning-man-media-message-messaging-mobile-network-networking-online-people-phone-rail-sharing-smartphone-smiling-social-standing-technology-telephone-texting-together-togetherness-waiting-westerner-wireless-woman-design-human-behavior-conversation-1456377.jpg",
+    image: Image4,
     alt: "Diverse group connecting through digital devices",
   },
   {
     title: "Consistency & Clarity",
     desc: "In an era of constant content, clarity and consistent effort always win. I guide others to communicate with focus and show up reliably.",
-    image: "https://media.sproutsocial.com/uploads/2025/05/Social-Media-Calendar-Publishing-Dashboard.jpg",
+    image: Image7,
     alt: "Social media content calendar for consistent planning",
   },
   {
     title: "Digital Confidence",
     desc: "My passion is seeing people step into their power online to learning to communicate value, attract opportunities, and create change through digital tools.",
-    image: "https://www.learning.com/wp-content/uploads/2022/03/iStock-647692680-1080x675.jpg",
+    image: Image5,
     alt: "Person gaining confidence through online learning",
   },
   {
     title: "Accessible Growth",
     desc: "I’m dedicated to making digital literacy purposeful and reachable, whether training teams, building communities, or empowering young people to thrive online.",
-    image: "https://www.unicef.org/digitaleducation/sites/unicef.org.digitaleducation/files/styles/hero_extended/public/IMG_2429_0%20%281%29.jpg.webp?itok=JExfPV_8",
+    image: Image6,
     alt: "Inclusive group learning digital skills together",
   },
 ];
