@@ -73,13 +73,13 @@ export default function Home() {
             {/* CTAs */}
             <div className="flex flex-wrap gap-6">
               <Link
-                to="/contact"
+                to="/contacts"
                 className="bg-accent hover:bg-pink-600 text-white px-8 py-4 rounded-full text-lg font-medium transition"
               >
                 Hire Me
               </Link>
               <Link
-                to="/contact"
+                to="/contacts"
                 className="border-2 border-white hover:bg-white/10 text-white px-8 py-4 rounded-full text-lg font-medium transition"
               >
                 Let's Collaborate
