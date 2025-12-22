@@ -12,7 +12,7 @@ export default function Navbar() {
     { to: "/experience", label: "Experience" },
     { to: "/testimonials", label: "Testimonials" },
     // { to: "/companies", label: "Companies" },
-    { to: "/contact", label: "Contact" },
+    { to: "/contacts", label: "Contacts" },
   ];
 
   return (
@@ -35,7 +35,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              to="/contact"
+              to="/contacts"
               className="bg-accent hover:bg-pink-600 text-white px-6 py-2 rounded-full transition"
             >
               Hire Me
@@ -65,7 +65,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              to="/contact"
+              to="/contacts"
               onClick={() => setMobileOpen(false)}
               className="block bg-accent text-white px-6 py-2 rounded-full text-center"
             >
